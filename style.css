@@ -1,0 +1,50 @@
+.navMob {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(47, 206, 255);
+    width: 100%;
+    justify-content: center;
+
+
+}
+
+.navtab {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 168, 47);
+    width: 100%;
+    justify-content: center;
+
+
+}
+
+.navdekstop {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 47, 241);
+    width: 100%;
+    justify-content: center;
+
+
+}
+
+@media (max-width:300px) {
+    .navMob {
+        display: block;
+        background-color: hotpink;
+    }
+}
+
+@media (min-width:300px)and (max-width:500px) {
+    .navtab {
+        display: block;
+        background-color: gold;
+    }
+}
+
+@media (min-width:500px) and (max-width:760px) {
+    .navdekstop {
+        display: block;
+        background-color: lime;
+    }
+}
